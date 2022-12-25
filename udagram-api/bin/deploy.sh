@@ -1,3 +1,3 @@
-eb init udagram-api-dev --platform node.js --region us-east-1 &&
-eb use udagram-api-dev
+eb init udagram-ud --platform node.js --region us-east-1 &&
+eb use udagram-api-dev && DB_HOST=$DB_HOST DB_USER=$DB_USER DB_PASSWORD=$DB_PASSWORD DB_NAME=$DB_NAME TOKEN_SECRET=$TOKEN_SECRET &&
 eb deploy udagram-api-dev
