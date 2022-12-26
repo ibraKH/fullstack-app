@@ -29,12 +29,12 @@ Split terminal for frontend and backend
 - $ cd udagram-frontend
 - $ npm run test
 
-# Env :
+## Env :
 - PORT
 - POSTGRES_HOST
 - POSTGRES_PORT
 - POSTGRES_DB
-- POSTGRES_USERNAM
+- POSTGRES_USERNAME
 - POSTGRES_PASSWORD
 - URL
 - JWT_SECRET
