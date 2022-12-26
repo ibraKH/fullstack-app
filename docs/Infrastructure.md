@@ -5,4 +5,4 @@
 - AWS IAM 
 - circleCi
 
-![services]("/../architecture/aws-architecture.png)
+![services](./architecture/aws-architecture.png)

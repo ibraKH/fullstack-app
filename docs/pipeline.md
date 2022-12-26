@@ -23,4 +23,4 @@ Main Jobs :
 
 
 
-![img](../architecture/pipeline.png)
+![img](./architecture/pipeline.png)
