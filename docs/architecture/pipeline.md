@@ -1,13 +1,3 @@
-### AWS required services :
-- RDS - for hosting Database
-- Elastic Beanstalk - for hosting backend
-- S3 - for hosting frontend
-- IAM - to create users for cli
-
-### Required Dependencies :
-- Node & npm
-- AWS cli
-
 ### Circleci :
 Before using CircleCi create [package.json](#pipeline)
 Main Jobs :
@@ -15,6 +5,13 @@ Main Jobs :
 - AWS configuration
 
 ## Pipeline : 
+- Setting Env Variables.
+- Install NodeJS.
+- Checkout Code & Cloning the Repo.
+- Install AWS CLI v2.
+- Check & Disable AWS pager.
+- Configure AWS AccessKeyID.
+- Configure AWS Region.
 - Frotend :
     - install
     - build
@@ -23,3 +20,7 @@ Main Jobs :
     - install
     - build
     - deploy
+
+
+
+![img](../architecture/pipeline.png)
