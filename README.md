@@ -8,7 +8,7 @@
 - Express
 - Angular
 
-### [Documentation](https://github.com/ibraKH/fullstack-app/tree/main/udagram-api)
+### [Documentation](https://github.com/ibraKH/fullstack-app/tree/main/docs)
 
 ### To start this project :
 - $ git clone https://github.com/ibraKH/fullstack-app.git
